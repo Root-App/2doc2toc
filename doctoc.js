@@ -49,7 +49,7 @@ function addTocToFiles(files, mode, maxHeaderLevel, title, notitle, entryPrefix,
     console.log('"%s" is up to date', x.path);
   });
 
-  changed.forEach(function (x) { 
+  changed.forEach(function (x) {
     if (stdOut) {
       console.log('==================\n\n"%s" should be updated', x.path)
     } else {
