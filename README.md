@@ -3,6 +3,8 @@
 Generates table of contents for markdown files inside local git repository. Links are compatible with anchors generated
 by github or other sites via a command line flag.
 
+This project was original forked from https://github.com/thlorenz/doctoc.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
