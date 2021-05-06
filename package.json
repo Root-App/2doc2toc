@@ -1,11 +1,11 @@
 {
   "author": "Root Documentation Guild",
-  "name": "doctoc",
+  "name": "2doc2toc",
   "description": "Generates TOC for markdown files of local git repo.",
   "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Root-App/doctoc.git"
+    "url": "git://github.com/Root-App/2doc2toc.git"
   },
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
@@ -13,8 +13,8 @@
   "files": [
     "lib"
   ],
-  "main": "doctoc.js",
-  "bin": "doctoc.js",
+  "main": "2doc2toc.js",
+  "bin": "2doc2toc.js",
   "dependencies": {
     "@textlint/markdown-to-ast": "~6.1.7",
     "anchor-markdown-header": "~0.5.7",

@@ -7,7 +7,7 @@ var test = require('tap').test,
 
 test('\nshould print to stdout with --stdout option', function (t) {
 
-    exec('node doctoc.js test/fixtures/readme-with-custom-title.md --stdout', function (error, stdout, stderr) {
+    exec('node 2doc2toc.js test/fixtures/readme-with-custom-title.md --stdout', function (error, stdout, stderr) {
       if (error) {
         console.error('exec error: ', error);
         return;
@@ -22,7 +22,7 @@ test('\nshould print to stdout with --stdout option', function (t) {
 
 test('\nshould print to stdout with -s option', function (t) {
 
-    exec('node doctoc.js test/fixtures/readme-with-custom-title.md -s', function (error, stdout, stderr) {
+    exec('node 2doc2toc.js test/fixtures/readme-with-custom-title.md -s', function (error, stdout, stderr) {
       if (error) {
         console.error('exec error: ', error);
         return;
