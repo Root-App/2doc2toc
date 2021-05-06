@@ -13,8 +13,8 @@
   "files": [
     "lib"
   ],
-  "main": "doctoc.js",
-  "bin": "doctoc.js",
+  "main": "2doc2toc.js",
+  "bin": "2doc2toc.js",
   "dependencies": {
     "@textlint/markdown-to-ast": "~6.1.7",
     "anchor-markdown-header": "~0.5.7",
